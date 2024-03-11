@@ -1,0 +1,150 @@
+html {  
+  scroll-behavior: smooth;  
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows:  1fr 2fr;
+}
+body{
+  background-color: #F9E8C9;
+}
+li{
+  list-style: none;
+  float: left;
+  color: #011A38;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 100PX;
+  padding: 2PX;
+  border-radius: 7PX;
+}
+li{
+  background: #F9E8C9;
+  transition: background-color 0.3s ease-out 100ms
+}
+
+li:hover {
+  background-color: #a8b5ea;
+}
+.name{
+  font-family: "Sacramento", cursive;
+  font-weight: 7rem;
+  margin-left: 90px;
+  position: absolute;
+  color: #011A38;
+}
+.my-pic,.my-photo{
+  grid-row-start: 3;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+.intro{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  display: grid;
+  text-align:left;
+  color: #805962;
+  font-size: xx-large;
+  align-content: center;
+}
+.who-am-i{
+  font-family:Georgia, 'Times New Roman', Times, serif, serif;
+  font-size: 5rem;
+  grid-column-start: span 2;
+  display: grid;
+  place-items: center;
+  color: #012b5e;
+  
+}.flexcontainer{
+  display: flex;
+  background-color: #a5b5f0;
+  width: 100%;
+}
+#skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #012b5e;
+}
+.c-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.c-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  align-items: center;
+}
+.flexcontainer2{
+  display: flex;
+  background-color: #9fb6ce;
+}
+.j-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:white;
+  align-items: center;
+}
+.java-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.flexcontainer3{
+  display: flex;
+  background-color: #6d9aca;
+}
+.f-skil{
+  display: flex;
+  text-align:left;
+  font-size: 2rem;
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+.figma-pic{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+#contact-me{
+    text-align: center;
+    color: #012b5e;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conact-methods,img{
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+}
+footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfcdca;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
